@@ -8,6 +8,6 @@ describe('app', () => {
     })
     it('should subtract correctly', () => {
         const app = new App()
-        expect(app.add(2, 1)).toEqual(1)
+        expect(app.subtract(2, 1)).toEqual(1)
     })
 })

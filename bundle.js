@@ -69,8 +69,11 @@
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__subtract__ = __webpack_require__(1);
+
 var App = /** @class */ (function () {
     function App() {
+        this.subtract = __WEBPACK_IMPORTED_MODULE_0__subtract__["a" /* default */];
     }
     App.prototype.add = function (x, y) {
         return x + y;
@@ -78,6 +81,17 @@ var App = /** @class */ (function () {
     return App;
 }());
 /* harmony default export */ __webpack_exports__["default"] = (App);
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = subtract;
+function subtract(a, b) {
+    return a - b;
+}
 
 
 /***/ })

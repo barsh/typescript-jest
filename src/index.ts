@@ -1,4 +1,4 @@
-import subtract from 'subtract'
+import subtract from './subtract'
 
 export default class App {
     public subtract = subtract

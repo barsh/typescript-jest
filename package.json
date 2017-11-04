@@ -17,7 +17,8 @@
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "pretest": "npm run lint",
     "test": "jest",
-    "build": "webpack"
+    "prestart": "npm run lint",
+    "start": "webpack"
   },
   "jest": {
     "moduleFileExtensions": [
